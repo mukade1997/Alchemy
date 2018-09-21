@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #fc0;
+	background-image: url("../sprite/wp.png");
+	background-size: cover;
+}
+.elem-menu{
+	background-image: url("../sprite/waterTEX.png");
+	border: 1px solid blue;
+	border-radius: 30px;
+	float: left;
+	height: 600px;
+	width: 150px;
+	list-style: none;
+	padding: 0;
+}
+.elem-menu li{
+	background-image: url(../sprite/stoneTEX.png);
+	display: block;
+	margin-top: 10px;
+	border: 3px solid grey;
+	border-radius: 20px;
+	height: 20px;
+	padding: 15px;
+	color: blue;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 800;
+
+}
+.elem-menu li .elem{
+	display: block;
+	height: 35px;
+	width: 35px;
+	float: right;
+	margin-top: -7px; 
+}
+#fire{
+	background-image: url("../sprite/elements.png");
+	background-position: -217px -80px;
+}
+#water{
+	background-image: url("../sprite/elements.png");
+	background-position: -384px -80px;
+}
+#air{
+	background-image: url("../sprite/elements.png");
+	background-position: -552px -255px;
+}
+#earth{
+	background-image: url("../sprite/elements.png");
+	background-position: -383px -255px;
+}
+#stone{
+	background-image: url("../sprite/elements.png");
+	background-position: -50px -430px;
+}
+#mud{
+	background-image: url("../sprite/elements.png");
+	background-position: -218px -428px;
+}
+#lava{
+	background-image: url("../sprite/elements.png");
+	background-position: 135px -428px;
+}
+#sand{
+	background-image: url("../sprite/elements.png");
+	background-position: -383px -428px;
+}
+#steam{
+	background-image: url("../sprite/elements.png");
+	background-position: 305px -428px;
+}
+.elem-menu li .fire{
+	background-image: url("../sprite/elements.png");
+	background-position: -84px -35px;
+	background-size: 400px 250px
+	
+}
+.elem-menu li .water{
+	background-image: url("../sprite/elements.png");
+	background-position: -149px -35px;
+	background-size: 400px 250px;
+}
+.elem-menu li .air{
+	background-image: url("../sprite/elements.png");
+	background-position: -214px -111px;
+	background-size: 400px 250px;
+}
+.elem-menu li .earth{
+	background-image: url("../sprite/elements.png");
+	background-position: -150px -111px;
+	background-size: 400px 250px;
+}
+.elem-menu li .stone{
+	background-image: url("../sprite/elements.png");
+	background-position: -16px -186px;
+	background-size: 400px 250px;
+}
+.elem-menu li .mud{
+	background-image: url("../sprite/elements.png");
+	background-position: -84px -185px;
+	background-size: 400px 250px;
+}
+.elem-menu li .lava{
+	background-image: url("../sprite/elements.png");
+	background-position: 54px -186px;
+	background-size: 400px 250px;
+}
+.elem-menu li .sand{
+	background-image: url("../sprite/elements.png");
+	background-position: -150px -186px;
+	background-size: 400px 250px;
+}
+.elem-menu li .steam{
+	background-image: url("../sprite/elements.png");
+	background-position: 120px -186px;
+	background-size: 400px 250px;
+}
+#trash{
+	background-image: url("../sprite/blackhole.png");
+	background-size: 140px 140px;
+	background-position: -160px -20px;
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	float: right;
+	margin-top: 15px;
+}
+#cyrcle{
+	background-image: url("../sprite/alchemystry_cyrcle(opacity).png");
+	background-size: 500px 500px;
+	background-color: orange;
+	border: 1px solid;
+	width: 500px;
+	height: 500px;
+	border-radius: 500px;
+	position: absolute;
+	left: 400px;
+	top: 80px;
+}
